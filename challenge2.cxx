@@ -18,11 +18,11 @@ auto geekout_char_length(int n2){
     int count = 0;
     for(int i =0; i < n2; ++i){
         if(n2 % 2 ==0 ){
-            count +=5;
+            count +=4;
             std::cout << count;
         }
         else if (n2 % 3 == 0){
-            count += 4;
+            count += 3;
             std::cout << count;
         }
     }
